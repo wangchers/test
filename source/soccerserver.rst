@@ -37,7 +37,7 @@ Connecting, reconnecting, and disconnecting
 +--------------------------------------------------------+-------------------------------------------------+
 |From player to server                                   |From server to client                            |
 +========================================================+=================================================+
-| | (**init *TeamName*** [(version *VerNum* )] [(goalie)])   | | (init *Side* *Unum* *PlayMode*)               |
+| | (init *TeamName* [(version *VerNum* )] [(goalie)])   | | (init *Side* *Unum* *PlayMode*)               |
 | |     *TeamName* ::= \[+-_a-zA-Z0-9\]+                 | |          *Side* ::= ``l`` \| ``r``            |
 | |       *VerNum* ::= the protocol version (e.g. 15)    | |          *Unum* ::= 1~11                      |
 |                                                        | |      *PlayMode* ::= one of play modes         |
